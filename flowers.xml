@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wedding flowers [
+<!ELEMENT wedding flowers (color, season, use, image)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT season (#PCDATA)>
+<!ELEMENT use (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ATTLIST image src () #REQUIRED>
+]>
+
+<wedding flowers>
+<color></color>
+<season></season>
+<use></use>
+<img src="" />
