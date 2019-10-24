@@ -1,0 +1,10 @@
+<!DOCTYPE weddingflowers
+[
+<!ELEMENT wedding flowers (flowers+)
+<!ELEMENT flowers (color+, season, use, image)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT season (#PCDATA)>
+<!ELEMENT use (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ATTLIST image src () #REQUIRED>
+]>
