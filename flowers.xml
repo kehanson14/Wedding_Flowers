@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE weddingflowers SYSTEM "flowers.dtd">
+<!DOCTYPE gallery [
+<!ELEMENT gallery (image+)
+<!ELEMENT image (color+, season, use, style?, size?, height?>
+<!ATTLIST image src #REQUIRED>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT season (#PCDATA)>
+<!ELEMENT use (#PCDATA)>
+<!ELEMENT style (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT height (#PCDATA)
+]>
+<gallery>
+  <image src="ceremony.jpg">
+    <color>white</color>
+    <color>red</color>
+    <color>purple</color>
+    <season>fall</season>
+    <use>ceremony</use>
+  </image>
 
-<weddingflowers>
-  <flowers>
-    <color></color>
-    <season></season>
-    <use></use>
-    <img src="" />
-  </flowers>
-</weddingflowers>
+</gallery>
