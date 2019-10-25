@@ -11,13 +11,6 @@
 <!ELEMENT height (#PCDATA)
 ]>
 <gallery>
-  <image src="ETceremony.jpg">
-    <color>white</color>
-    <color>red</color>
-    <color>purple</color>
-    <season>fall</season>
-    <use>ceremony</use>
-  </image>
   <image src="ESbride.jpg">
     <color>white</color>
     <color>pink</color>
@@ -25,6 +18,21 @@
     <use>bouquet</use>
       <style>classic</style>
       <size>medium</size>
+  </image>
+  <image src="ESbridesmaid.jpg">
+    <color>pink</color>
+    <color>white</color>
+    <season>spring</season>
+    <use>bouquet</use>
+    <style>classic</style>
+    <size>small</size>
+  </image>
+  <image src="ETceremony.jpg">
+    <color>white</color>
+    <color>red</color>
+    <color>purple</color>
+    <season>fall</season>
+    <use>ceremony</use>
   </image>
   <image src="ETraised.jpg">
     <color>white</color>
@@ -39,13 +47,5 @@
     <color>green</color>
     <season>winter</season>
     <use>ceremony</use>
-  </image>
-  <image src="ESbridesmaid.jpg">
-    <color>pink</color>
-    <color>white</color>
-    <season>spring</season>
-    <use>bouquet</use>
-    <style>classic</style>
-    <size>small</size>
   </image>
 </gallery>
