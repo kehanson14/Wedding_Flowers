@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE gallery [
 <!ELEMENT gallery (image+)
-<!ELEMENT image (color+, season, use, style?, size?, height?>
+<!ELEMENT image (color+, season, use, style?, size?, height?, wedding>
 <!ATTLIST image src #REQUIRED>
 <!ELEMENT color (#PCDATA)>
 <!ELEMENT season (#PCDATA)>
 <!ELEMENT use (#PCDATA)>
 <!ELEMENT style (#PCDATA)>
 <!ELEMENT size (#PCDATA)>
-<!ELEMENT height (#PCDATA)
+<!ELEMENT height (#PCDATA)>
+<!ELEMENT wedding (#PCDATA)>
 ]>
 <gallery>
   <image src="ESbride.jpg">
@@ -18,14 +19,16 @@
     <use>bouquet</use>
       <style>classic</style>
       <size>medium</size>
+    <wedding>Emma and Sam</wedding>
   </image>
   <image src="ESbridesmaid.jpg">
     <color>pink</color>
     <color>white</color>
     <season>spring</season>
     <use>bouquet</use>
-    <style>classic</style>
-    <size>small</size>
+      <style>classic</style>
+      <size>small</size>
+    <wedding>Emma and Sam</wedding>
   </image>
   <image src="ETceremony.jpg">
     <color>white</color>
@@ -33,6 +36,7 @@
     <color>purple</color>
     <season>fall</season>
     <use>ceremony</use>
+    <wedding>Emma and Taylor</wedding>
   </image>
   <image src="ETraised.jpg">
     <color>white</color>
@@ -41,11 +45,13 @@
     <season>fall</season>
     <use>centerpiece</use>
       <height>raised</height>
+    <wedding>Emma and Taylor</wedding>
   </image>
   <image src="NNtalllantern.png">
     <color>white</color>
     <color>green</color>
     <season>winter</season>
     <use>ceremony</use>
+    <wedding>Nicole and Nick</wedding>
   </image>
 </gallery>
